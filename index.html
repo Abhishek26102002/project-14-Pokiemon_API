@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokimon Api</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div id="container">
+        <!-- First half of poker desk -->
+        <div id="pokedexOne">
+            <div id="top">
+
+                <div id="topsquare">
+                    <div id="buttonWhite">
+                        <div id="buttonBue"></div>
+                    </div>
+                    <div id="topSquareTwo">
+                        <div id="buttonRed"></div>
+                        <div id="buttonGreen"></div>
+                        <div id="buttonYellow"></div>
+                    </div>
+                </div>
+
+
+                <div id="screen">
+                    <div id="screenTwo">
+                        <img  id="pokimonImg" alt="">
+                    </div>
+                    <div id="buttonRedScreen"></div>
+                    <div id="barOne"></div>
+                    <div id="barTwo"></div>
+                </div>
+            </div>
+
+            <!-- Bottom Half -->
+            <div id="bottom">
+                <div id="bluebutton"></div>
+                <div id="yellowbutton"></div>
+                <div id="dpadhorizontal"></div>
+                <div id="dpadvertical"></div>
+                <div id="select"><em>Select</em></div>
+                <div id="start"><em>Start</em></div>
+            </div>
+
+
+        </div>
+
+        <!-- Hinge -->
+        <div id="hinge"></div>
+
+        <!-- second half -->
+        <div id="pokedexTwo">
+            <div id="topSquare">
+                <div id="hidden"></div>
+            </div>
+
+            <div id="searchbar">
+                <input type="text" placeholder="Search" id="searchName">
+                <button id="searchButton" onclick="getpokimon()"><i class="fa fa-search"></i></button>
+            </div>
+            <div id="sectionTwo">
+                <div class="square"><em>W</em></div>
+                <div class="square"><em>E</em></div>
+                <div class="square"><em>R</em></div>
+                <div class="square"><em>T</em></div>
+                <div class="square"><em>S</em></div>
+                <div class="square"><em>X</em></div>
+                <div class="square"><em>F</em></div>
+                <div class="square"><em>G</em></div>
+            </div>
+
+            <div id="sectionThree">
+              
+                    <div id="Bred">1</div>
+                    <div id="Bgreen">2</div>
+                    <div id="Byellow">3</div>
+                    <div id="Bblue">4</div>
+              
+                <div id="buttonYelloww"></div>
+            </div>
+
+            <div id="sectionFour">
+                <div id="Fone"></div>
+                <div id="Ftwo"></div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

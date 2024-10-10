@@ -1,0 +1,378 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(250, 208, 218);
+  padding-top: 20vh;
+}
+
+#pokedexOne {
+  width: 350px;
+  height: 520px;
+  display: block;
+  margin: auto;
+  background-color: #fc2243;
+  z-index: 3;
+}
+#top {
+  width: 75%;
+  display: block;
+  margin: auto;
+  height: 50%;
+  position: relative;
+  background: none;
+  border-radius: 0%;
+  z-index: 1;
+}
+#topsquare {
+  display: block;
+  width: 55%;
+  margin: auto;
+  background-color: #d50625;
+  z-index: 1;
+  height: 25%;
+  position: absolute;
+  left: -16.5%;
+}
+#buttonWhite {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+  position: absolute;
+  left: 5%;
+  top: 10%;
+}
+#buttonBue {
+  background-color: aqua;
+  border-radius: 50%;
+  width: 85%;
+  height: 85%;
+  display: block;
+  margin: 4px;
+  cursor: pointer;
+}
+
+#topSquareTwo {
+  display: block;
+  margin: auto;
+  background-color: #d50625;
+  height: 60%;
+  width: 163%;
+  z-index: 3;
+  position: absolute;
+  left: 79%;
+}
+#buttonRed {
+  display: block;
+  background-color: #fc2243;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  left: -18%;
+  z-index: 2;
+  cursor: pointer;
+}
+#buttonGreen {
+  display: block;
+  background-color: greenyellow;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  left: -8%;
+  z-index: 2;
+  cursor: pointer;
+}
+#buttonYellow {
+  display: block;
+  background-color: yellow;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: auto;
+  top: 45%;
+  left: 3%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#screen {
+  display: block;
+  position: absolute;
+  margin: auto;
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 75%;
+  border-radius: 6%;
+  top: 40%;
+}
+#screenTwo {
+  display: block;
+  position: absolute;
+  margin: auto;
+  background-color: #ffffff;
+  width: 90%;
+  height: 75%;
+  border-radius: 6%;
+  top: 10%;
+  left: 5%;
+}
+#bottom {
+  display: block;
+  position: relative;
+  width: 100%;
+  border-radius: 5%;
+  margin: auto;
+  height: 40%;
+}
+#start {
+  display: block;
+  cursor: pointer;
+  width: 15%;
+  height: 8%;
+  position: absolute;
+  margin: 10px auto;
+  background-color: #c7feff;
+  border-radius: 30px;
+  top: 25%;
+  left: 38%;
+  transform: rotate(26deg);
+}
+#select {
+  display: block;
+  cursor: pointer;
+  width: 15%;
+  height: 8%;
+  position: absolute;
+  margin: 10px auto;
+  background-color: #f68d3c;
+  border-radius: 30px;
+  top: 22%;
+  left: 54%;
+  transform: rotate(26deg);
+}
+em {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#dpadhorizontal {
+  display: block;
+  position: absolute;
+  background-color: #404040;
+  cursor: pointer;
+  height: 80px;
+  width: 23px;
+  top: 32%;
+  left: 16%;
+}
+#dpadvertical {
+  display: block;
+  position: absolute;
+  background-color: #404040;
+  cursor: pointer;
+  height: 80px;
+  width: 23px;
+  top: 32%;
+  left: 16%;
+  transform: rotate(90deg);
+}
+#bluebutton {
+  display: block;
+  position: absolute;
+  background-color: #d5d5d5;
+  width: 35%;
+  height: 58%;
+  border-radius: 50%;
+  top: 22%;
+  left: 2%;
+}
+#yellowbutton {
+  display: block;
+  position: absolute;
+  background-color: #00c6ed;
+  width: 15%;
+  height: 25%;
+  border-radius: 50%;
+  top: 42%;
+  right: 12%;
+  cursor: pointer;
+}
+#container {
+  display: flex;
+}
+#hinge {
+  width: 18px;
+  background-color: #d50625;
+  border-radius: 5px;
+  height: 425px;
+  margin-top: 83px;
+}
+#pokedexTwo {
+  width: 350px;
+  height: 450px;
+  display: block;
+  margin-top: 70px;
+  position: relative;
+  background-color: #fc2243;
+  z-index: 3;
+}
+#hidden {
+  position: relative;
+  width: 60%;
+  height: 33px;
+  background-color: #fc2243;
+  top: -25px;
+}
+#searchbar {
+  width: 100%;
+  height: 33px;
+  display: flex;
+  position: absolute;
+  left: 9%;
+  top: 17%;
+}
+#searchName {
+  width: 74%;
+}
+::placeholder {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+#searchButton {
+  width: 72px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 35px;
+  right: 19%;
+  cursor: pointer;
+}
+#sectionTwo {
+  height: 100px;
+  width: 87%;
+  margin-top: 109px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  margin-left: 20px;
+}
+.square {
+  background-color: #00c6ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pokimonImg {
+  width: 100%;
+  height: 100%;
+}
+
+#sectionThree {
+  display: flex;
+  position: relative;
+  /* border: 2px solid red; */
+  background-color: #203637;
+  border-radius: 50%;
+  width: 37%;
+  height: 28%;
+  margin-left: 21px;
+  margin-top: 20px;
+}
+#Bred {
+  width: 33px;
+  height: 32px;
+  background-color: red;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  top: 13%;
+  left: 37%;
+  align-items: center;
+  justify-content: center;
+}
+#Bgreen {
+  width: 33px;
+  height: 32px;
+  background-color: green;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  top: 37%;
+  left: 7%;
+  align-items: center;
+  justify-content: center;
+}
+#Byellow {
+  width: 33px;
+  height: 32px;
+  background-color: yellow;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  top: 37%;
+  right: 11%;
+  align-items: center;
+  justify-content: center;
+}
+#Bblue {
+  width: 33px;
+  height: 32px;
+  background-color: blue;
+  display: flex;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 13%;
+  left: 37%;
+  align-items: center;
+  justify-content: center;
+}
+
+#sectionFour {
+    display: flex;
+    position: relative;
+    background-color: #505050;
+    border-radius: 50%;
+    width: 18%;
+    height: 14%;
+    flex-direction: column;
+    left: 72%;
+    bottom: 21%;
+}
+#Fone{
+    background-color: #1c1c1c;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 9%;
+    top: 9%;
+}
+#Ftwo{
+    background-color: #a9a9a9;
+    width: 37px;
+    height: 40px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 18%;
+    top: 17%;
+
+}
